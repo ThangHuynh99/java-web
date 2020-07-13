@@ -1,0 +1,31 @@
+page parent:
+
+page child: inherite
+
+component common: page parent
+
+b1: import thư viện
+b2: tạo 1 file decorator.xml
+b3: tạo 1 filter trong web.xml
+
+url admin:/admin-new-list, /admin-new-edit
+
+-> apply cái UI cảu admin ACE
+
+url web: /trang-chu, /dang-nhap, /chi-tiet-bai-viet
+
+API: hàm để thực thi chức năng.
+url API: không có apply template 
+
+/admin...
+/...
+/api...
+
+sitemesh decorator:
+filter URL
+- admin -> apply giao diện admin
+- apply giao diện web
+- apply giao diện
+vd:/api k apply giao diện.
+
+s
